@@ -1,0 +1,11 @@
+
+
+@mixin Display ( $display , $flexFlow , $jContent , $aItems , $gap : false ){
+    display : $display ;
+    flex-flow : $flexFlow ;
+    justify-content: $jContent ;
+    align-items : $aItems ;
+    @if $gap {
+        gap : $gap ;
+    }
+}

@@ -1,0 +1,18 @@
+
+$gridColumns : 12 ;
+$gridColumnsGap : 0 ;
+$gridRows : 0 ;
+$gridRowsGap : 0 ;
+
+@mixin Grid {
+    display : grid ;
+    grid-template-columns : repeat( $gridColumns , 1fr ) ;
+    grid-template-rows : $gridRows ;
+    column-gap : $gridColumnsGap ;
+    row-gap : $gridRowsGap ;
+}
+
+@mixin GridComponent ( $columnInit , $columnEnd , $rowInit , $rowEnd ) {
+    grid-column : $columnInit / $columnEnd ;
+    grid-row : $rowInit / $rowEnd ;
+}

@@ -1,0 +1,30 @@
+/* Comienzo Header */
+
+.Header {
+    
+    & .section {
+ 
+        & .article {
+
+            & .logo {
+
+                & img {
+                    scale : 1 ;
+                }
+            }
+            & .menu {
+
+                &__item {
+
+                    &--link {}
+                }
+            }
+
+            & .session {
+
+                & .link {}
+                & .button {}
+            }
+        }
+    }
+}

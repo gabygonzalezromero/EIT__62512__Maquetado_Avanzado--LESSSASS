@@ -1,0 +1,56 @@
+/* comienzo Base */
+html {
+  font-size: 18px;
+  font-weight: 500 700;
+  line-height: 1.5;
+  box-sizing: "border-box";
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  all: unset;
+}
+
+/* Comienzo Body */
+.Body {
+  max-width: 1400px;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 0;
+  column-gap: 0;
+  row-gap: 0;
+}
+
+/* Comienzo Header */
+.Header .section .article .logo img {
+  scale: 1;
+}
+/* Comienzo Aside */ /* Comienzo Main */
+/* Comienzo Footer */
+.Footer {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.Footer .section .article .logo {
+  display: inline-flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.Footer .section .article .logo img {
+  scale: 1;
+}
+.Footer .section .article .logo figcaption {
+  color: red;
+}
+
+/*# sourceMappingURL=styles.css.map */

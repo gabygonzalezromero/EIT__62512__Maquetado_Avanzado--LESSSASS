@@ -1,7 +1,32 @@
+@use "grid" as G ;
+@use "_h-fonts" as F ;
+@use "_h-boxSizing" as BS ;
+
 /* comienzo Base */
 
+
+
 html {
-    font-size : 16px ;
-    font-weight: 500 600 ;
-    line-height: 1.5 ;
+    font-size: F.$fontSize ; // 16px
+    font-weight: F.$fontWeight ; // 500 700
+    line-height: F.$lineHeight ; // 1.5
+
+
+    box-sizing: BS.$boxSizing ;
+}
+
+* {
+    padding: 0 ;
+    margin: 0 ;
+}
+
+button { all : unset ; }
+
+// Comentarios de SASS
+
+/* Comienzo Body */
+.Body {
+    max-width : 1400px ;
+
+    @include G.Grid ; 
 }

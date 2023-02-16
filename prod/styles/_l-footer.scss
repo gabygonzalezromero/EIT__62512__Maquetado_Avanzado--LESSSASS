@@ -1,0 +1,30 @@
+@use 'mixins' as * ;
+
+/* Comienzo Footer */
+
+.Footer {
+    width: 100% ;
+    height: 100px ;
+
+    @include Display( flex , row nowrap , space-between , center ) ;
+
+    & .section {
+
+        & .article {
+
+            & .logo {
+                @include Display( inline-flex , row nowrap , center , center , 1rem ) ; 
+
+                & img {
+                    scale : 1 ;
+                }
+                & figcaption {
+                    color : red ;
+                }
+            }
+
+        }
+
+
+    }
+}
