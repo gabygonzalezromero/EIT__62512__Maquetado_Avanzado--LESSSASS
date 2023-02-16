@@ -1,0 +1,16 @@
+{
+  "name": "proyecto SASS",
+  "version": "1.0.0",
+  "description": "Este es el proyecto de SASS de Educacion IT",
+  "main": "app.js",
+  "scripts": {
+    "sass": "sass --watch ./styles/styles.sass:../public/styles.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Gaby Gonzalez Romero <gabygonzalezromero@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "node-sass": "8.0.0"
+  }
+}
