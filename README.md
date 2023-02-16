@@ -12,5 +12,14 @@ Repositorio de la comision #62512
         | SASS | Ruby & Dart | [ nombre del archivo ].sass | [ nombre archivo ].css |
         | SASS | Ruby & Dart | [ nombre del archivo ].scss | [ nombre archivo ].css |
 
+    - [ ] Para la proxima clase :
+        - Repaso HTML y CSS
+        - Modulo 1 de Alumni.
+        - Proyecto Integrador 1.
+        - Desafio 1.
 
-        
+# Clase 02 - 15.23.2023
+    - [ ] Imagenes : PNG , JPG , otros .. + Compresion : Base64
+    - [ ] Compiladores : NodeJS + SASS  / LESS.
+    - [ ] Configuracion optima para trabajar con proyectos SASS.
+
