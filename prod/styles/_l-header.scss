@@ -1,7 +1,11 @@
+@use 'grid' as G ;
+@use '_h-colors' as C ;
+
 /* Comienzo Header */
 
 .Header {
-    
+    @include G.GridComponent( '1 / 13' , '1 / 2' ) ;
+
     & .section {
  
         & .article {

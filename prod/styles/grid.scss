@@ -12,7 +12,7 @@ $gridRowsGap : 0 ;
     row-gap : $gridRowsGap ;
 }
 
-@mixin GridComponent ( $columnInit , $columnEnd , $rowInit , $rowEnd ) {
-    grid-column : $columnInit / $columnEnd ;
-    grid-row : $rowInit / $rowEnd ;
+@mixin GridComponent ( $column , $row ) {
+    grid-column : #{ $column } ;
+    grid-row : #{ $row } ;
 }
